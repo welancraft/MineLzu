@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "minelzu:block/glass/tg_blue"
+  },
+  "ambientocclusion": false
+}

@@ -1,0 +1,10 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+license = "All rights reserved"
+[[mods]]
+modId = "minelzu"
+version = "${file.jarVersion}"
+displayName = "MineLZU"
+authors = "WeLanCraft, Tapio"
+description = '''
+'''

@@ -27,7 +27,7 @@ public class BlockInit {
 
     public static void registerBlock() {
         MineLZU.LOGGER.info("MineLzu >>> Registering blocks!");
-        lazyRegisterSimpleBlock(outerWall1, corner1);
+        lazyRegisterSimpleBlock(outerWall1, corner1, bricksBrownWhite, bricksBrownBlack, bricksGreyBlack, bricksWhiteBlack);
         lazyRegisterGlassBlock(blueTranslucentGlass);
         BlockShapes.singleVoxeledBlockList.forEach((name, shape) -> BLOCKS.put(name, lazyRegisterVoxeledBlock(name, shape)));
         BlockShapes.simpleHorizontalBlockList.forEach((name, shape) -> BLOCKS.put(name, lazyRegisterSimpleHorizontalBlock(name, shape)));

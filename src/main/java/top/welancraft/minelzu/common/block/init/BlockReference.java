@@ -14,6 +14,11 @@ public class BlockReference {
     //bricks
     public static final String academy2OpenworkBricks = "a2_openwork";
 
+    public static final String bricksBrownWhite = "bricks_brown_white";
+    public static final String bricksBrownBlack = "bricks_brown_black";
+    public static final String bricksWhiteBlack = "bricks_white_black";
+    public static final String bricksGreyBlack = "bricks_grey_black";
+
     //misc
     public static final String lampPost = "lamp_post";
 

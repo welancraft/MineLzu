@@ -9,6 +9,10 @@
   "block.minelzu.tg_blue": "蓝色半透明玻璃",
   "_bricks": "",
   "block.minelzu.a2_openwork": "二教镂空砖块",
+  "block.minelzu.bricks_brown_black": "棕底黑缝砖",
+  "block.minelzu.bricks_brown_white": "棕底白缝砖",
+  "block.minelzu.bricks_grey_black": "灰底黑缝砖",
+  "block.minelzu.bricks_white_black": "白底黑缝砖",
   "_misc": "",
   "block.minelzu.lamp_post": "路灯柱"
 }

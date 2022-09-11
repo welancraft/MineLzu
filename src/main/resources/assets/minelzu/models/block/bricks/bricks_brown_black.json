@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "minelzu:block/bricks/bricks_brown_black"
+  }
+}

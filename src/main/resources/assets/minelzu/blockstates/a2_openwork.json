@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minelzu:block/bricks/a2_openwork"
+    },
+    "facing=south": {
+      "model": "minelzu:block/bricks/a2_openwork",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "minelzu:block/bricks/a2_openwork",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "minelzu:block/bricks/a2_openwork",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minelzu:block/walls/ow_02"
+    },
+    "facing=south": {
+      "model": "minelzu:block/walls/ow_02"
+    },
+    "facing=east": {
+      "model": "minelzu:block/walls/ow_02",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "minelzu:block/walls/ow_02",
+      "y": 90
+    }
+  }
+}

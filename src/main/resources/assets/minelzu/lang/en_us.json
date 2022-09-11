@@ -2,10 +2,13 @@
   "itemGroup.minelzu.main": "MineLzu",
   "_walls": "",
   "block.minelzu.ow_01": "昆仑堂外墙",
+  "block.minelzu.ow_02": "新宿舍楼外砖墙",
   "_corners": "",
   "block.minelzu.co_01": "新宿舍楼外墙边角",
   "_glass": "",
   "block.minelzu.tg_blue": "蓝色半透明玻璃",
+  "_bricks": "",
+  "block.minelzu.a2_openwork": "二教镂空砖块",
   "_misc": "",
   "block.minelzu.lamp_post": "路灯柱"
 }

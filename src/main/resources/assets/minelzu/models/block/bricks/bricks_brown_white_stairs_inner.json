@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "minelzu:block/bricks/bricks_brown_white",
+    "top": "minelzu:block/bricks/bricks_brown_white",
+    "side": "minelzu:block/bricks/bricks_brown_white"
+  }
+}

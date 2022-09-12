@@ -9,8 +9,8 @@ import java.util.Map;
 import static top.welancraft.minelzu.common.block.init.BlockReference.*;
 
 public class BlockShapes {
-    public static Map<String, VoxelShape> singleVoxeledBlockList = new HashMap<>();
-    public static Map<String, double[]> simpleHorizontalBlockList = new HashMap<>();
+    public static final Map<String, VoxelShape> singleVoxeledBlockList = new HashMap<>();
+    public static final Map<String, double[]> simpleHorizontalBlockList = new HashMap<>();
 
     public static void init() {
         singleVoxeledBlockList.put(lampPost, Block.box(6, 0, 6, 10, 16, 10));

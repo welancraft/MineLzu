@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "minelzu:block/bricks/bricks_grey_black",
+    "top": "minelzu:block/bricks/bricks_grey_black",
+    "side": "minelzu:block/bricks/bricks_grey_black"
+  }
+}

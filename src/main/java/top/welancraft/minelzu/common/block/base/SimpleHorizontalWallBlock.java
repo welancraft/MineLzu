@@ -19,6 +19,7 @@ import javax.annotation.Nonnull;
 import static top.welancraft.minelzu.common.block.shapes.BlockShapes.getFromDouble;
 import static top.welancraft.minelzu.common.block.shapes.BlockShapes.rotateV;
 
+@SuppressWarnings("deprecation")
 public class SimpleHorizontalWallBlock extends VoxeledBuildingBlock {
     public static final DirectionProperty FACING = HorizontalBlock.FACING;
     private final double[] shape;

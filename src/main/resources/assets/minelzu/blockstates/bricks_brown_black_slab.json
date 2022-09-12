@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minelzu:block/bricks/bricks_brown_black_slab"
+    },
+    "type=double": {
+      "model": "minelzu:block/bricks/bricks_brown_black"
+    },
+    "type=top": {
+      "model": "minelzu:block/bricks/bricks_brown_black_slab_top"
+    }
+  }
+}

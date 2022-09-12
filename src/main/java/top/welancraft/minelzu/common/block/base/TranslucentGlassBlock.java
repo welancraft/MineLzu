@@ -23,6 +23,7 @@ public class TranslucentGlassBlock extends AbstractGlassBlock implements ISpecia
         return RenderType.translucent();
     }
 
+    @SuppressWarnings("deprecation")
     @Override
     public int getLightBlock(@Nonnull BlockState state, @Nonnull IBlockReader worldIn, @Nonnull BlockPos pos) {
         return 12;

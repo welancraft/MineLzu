@@ -9,6 +9,7 @@ import top.welancraft.minelzu.common.block.api.ISpecialLayer;
 
 import javax.annotation.Nonnull;
 
+@SuppressWarnings("deprecation")
 public class VoxeledBuildingBlock extends SimpleBuildingBlock implements ISpecialLayer {
     private final VoxelShape shape;
 

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "minelzu:block/od/lamp_post"
+      "model": "minelzu:block/misc/lamp_post"
     }
   }
 }

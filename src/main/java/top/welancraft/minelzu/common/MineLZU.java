@@ -2,14 +2,14 @@ package top.welancraft.minelzu.common;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import top.welancraft.minelzu.common.util.RegistryHandler;
 
 @Mod(MineLZU.MODID)
 public class MineLZU {
     public static final String MODID = "minelzu";
-    public static final Logger LOGGER = LoggerFactory.getLogger(MineLZU.class);
+    public static final Logger LOGGER = LogManager.getLogger();
 
     public MineLZU() {
         RegistryHandler.initReferences();

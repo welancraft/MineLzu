@@ -22,5 +22,6 @@
   "block.minelzu.bricks_grey_black_slab": "灰底黑缝砖台阶",
   "block.minelzu.bricks_white_black_slab": "白底黑缝砖台阶",
   "_misc": "",
-  "block.minelzu.lamp_post": "路灯柱"
+  "block.minelzu.lamp_post": "路灯柱",
+  "block.minelzu.support_bar": "支撑杆"
 }

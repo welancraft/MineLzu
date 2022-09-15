@@ -1,0 +1,92 @@
+{
+  "parent": "minecraft:block/block",
+  "credit": "Tapio made with Blockbench",
+  "texture_size": [
+    32,
+    32
+  ],
+  "textures": {
+    "0": "minelzu:block/misc/support_bar",
+    "particle": "minelzu:block/misc/support_bar"
+  },
+  "elements": [
+    {
+      "name": "main",
+      "from": [
+        -0.1,
+        -1,
+        7.5
+      ],
+      "to": [
+        22.7,
+        0,
+        8.5
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "z",
+        "origin": [
+          0,
+          0,
+          0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            11.5,
+            0.5
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            2,
+            0.5,
+            2.5
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            0.5,
+            11.5,
+            1
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            2,
+            1,
+            2.5
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            11.5,
+            1.5,
+            0,
+            1
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            11.5,
+            1.5,
+            0,
+            2
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ]
+}

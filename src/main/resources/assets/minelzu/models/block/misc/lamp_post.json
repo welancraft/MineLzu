@@ -6,8 +6,8 @@
     32
   ],
   "textures": {
-    "0": "minelzu:block/od/lamp_post",
-    "particle": "minelzu:block/od/lamp_post"
+    "0": "minelzu:block/misc/lamp_post",
+    "particle": "minelzu:block/misc/lamp_post"
   },
   "elements": [
     {

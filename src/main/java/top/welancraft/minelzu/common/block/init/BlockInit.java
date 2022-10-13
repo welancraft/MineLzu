@@ -11,10 +11,7 @@ import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraftforge.fml.RegistryObject;
 import top.welancraft.minelzu.client.creativeTab.TabInit;
 import top.welancraft.minelzu.common.MineLZU;
-import top.welancraft.minelzu.common.block.base.SimpleBuildingBlock;
-import top.welancraft.minelzu.common.block.base.SimpleHorizontalWallBlock;
-import top.welancraft.minelzu.common.block.base.TranslucentGlassBlock;
-import top.welancraft.minelzu.common.block.base.VoxeledBuildingBlock;
+import top.welancraft.minelzu.common.block.base.*;
 import top.welancraft.minelzu.common.block.shapes.BlockShapes;
 import top.welancraft.minelzu.common.util.RegistryHandler;
 
@@ -35,6 +32,7 @@ public class BlockInit {
         lazyRegisterSimpleBlock(outerWall1, corner1, bricksBrownWhite, bricksBrownBlack, bricksGreyBlack, bricksWhiteBlack);
         lazyRegisterStairsBlockNSlabBlock(bricksBrownWhite, bricksBrownBlack, bricksGreyBlack, bricksWhiteBlack);
         lazyRegisterGlassBlock(blueTranslucentGlass);
+        lazyRegisterNoCollisionFullOutlineBlock(academy2WallLamp);
         BlockShapes.singleVoxeledBlockList.forEach((name, shape) -> BLOCKS.put(name, lazyRegisterVoxeledBlock(name, shape)));
         BlockShapes.simpleHorizontalBlockList.forEach((name, shape) -> BLOCKS.put(name, lazyRegisterSimpleHorizontalBlock(name, shape)));
         BLOCKS.forEach((name, block) -> RegistryHandler.Items.register(name, () -> new BlockItem(block.get(), DEFAULT)));
@@ -47,6 +45,11 @@ public class BlockInit {
 
     private static void lazyRegisterGlassBlock(String... ids) {
         for (final String id : ids) BLOCKS.put(id, RegistryHandler.Blocks.register(id, TranslucentGlassBlock::new));
+    }
+
+    private static void lazyRegisterNoCollisionFullOutlineBlock(String... ids) {
+        for (final String id : ids)
+            BLOCKS.put(id, RegistryHandler.Blocks.register(id, NoCollisionFullOutlineBlock::new));
     }
 
     private static void lazyRegisterStairsBlockNSlabBlock(String... ids) {

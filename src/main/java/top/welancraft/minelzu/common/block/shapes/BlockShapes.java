@@ -14,7 +14,6 @@ public class BlockShapes {
 
     public static void init() {
         singleVoxeledBlockList.put(lampPost, Block.box(6, 0, 6, 10, 16, 10));
-
         simpleHorizontalBlockList.put(outerWall2, new double[]{0, 0, 3, 16, 16, 13});
         simpleHorizontalBlockList.put(academy2OpenworkBricks, new double[]{0, 0, 0, 16, 16, 16});
         simpleHorizontalBlockList.put(supportBar, new double[]{7.5, 0, 0, 8.5, 16, 16});

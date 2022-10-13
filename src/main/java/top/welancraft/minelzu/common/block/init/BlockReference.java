@@ -21,6 +21,7 @@ public class BlockReference {
 
     //misc
     public static final String lampPost = "lamp_post";
+    public static final String academy2WallLamp = "a2_wall_lamp";
     public static final String supportBar = "support_bar";
 
 

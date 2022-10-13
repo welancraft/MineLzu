@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minelzu:block/misc/a2_wall_lamp"
+    },
+    "facing=south": {
+      "model": "minelzu:block/misc/a2_wall_lamp",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "minelzu:block/misc/a2_wall_lamp",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "minelzu:block/misc/a2_wall_lamp",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minelzu:block/bricks/ow_02_cube_slab"
+    },
+    "type=double": {
+      "model": "minelzu:block/bricks/ow_02_cube"
+    },
+    "type=top": {
+      "model": "minelzu:block/bricks/ow_02_cube_slab_top"
+    }
+  }
+}

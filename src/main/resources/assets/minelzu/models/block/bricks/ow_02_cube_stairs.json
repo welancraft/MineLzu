@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "minelzu:block/bricks/ow_02_cube",
+    "top": "minelzu:block/bricks/ow_02_cube",
+    "side": "minelzu:block/bricks/ow_02_cube"
+  }
+}

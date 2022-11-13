@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "minelzu:block/bricks/ow_02_cube"
+  }
+}

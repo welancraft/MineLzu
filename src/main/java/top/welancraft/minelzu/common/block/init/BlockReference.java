@@ -18,6 +18,7 @@ public class BlockReference {
     public static final String bricksBrownBlack = "bricks_brown_black";
     public static final String bricksWhiteBlack = "bricks_white_black";
     public static final String bricksGreyBlack = "bricks_grey_black";
+    public static final String outerWall2Cube = "ow_02_cube";
 
     //misc
     public static final String lampPost = "lamp_post";

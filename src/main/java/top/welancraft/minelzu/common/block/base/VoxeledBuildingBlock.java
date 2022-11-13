@@ -22,4 +22,6 @@ public class VoxeledBuildingBlock extends SimpleBuildingBlock implements ISpecia
     public VoxelShape getShape(@Nonnull BlockState state, @Nonnull IBlockReader reader, @Nonnull BlockPos pos, @Nonnull ISelectionContext ctx) {
         return shape;
     }
+
+
 }

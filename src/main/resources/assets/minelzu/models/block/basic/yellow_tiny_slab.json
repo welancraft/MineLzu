@@ -1,0 +1,7 @@
+{
+  "parent": "minelzu:block/basic/tiny_slab",
+  "textures": {
+    "0": "minelzu:block/basic/stairs/yellow_slab_stairs",
+    "particle": "minelzu:block/basic/stairs/yellow_slab_stairs"
+  }
+}

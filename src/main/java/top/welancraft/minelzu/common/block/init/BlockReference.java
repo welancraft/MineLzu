@@ -1,6 +1,11 @@
 package top.welancraft.minelzu.common.block.init;
 
 public class BlockReference {
+    //Basic
+    public static final String yellowSlabStairs = "yellow_slab_stairs";
+    public static final String yellowTinySlab = "yellow_tiny_slab";
+    public static final String grayUpperTinyStairs = "gray_upper_tiny_stairs";
+
     //Outer walls
     public static final String outerWall1 = "ow_01";
     public static final String outerWall2 = "ow_02";

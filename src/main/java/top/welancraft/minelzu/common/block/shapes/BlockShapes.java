@@ -20,6 +20,8 @@ public class BlockShapes {
         simpleHorizontalBlockList.put(yellowSlabStairs, new double[]{0, 0, 0, 16, 12, 16});
         simpleHorizontalBlockList.put(yellowTinySlab, new double[]{0, 0, 0, 16, 4, 16});
         simpleHorizontalBlockList.put(grayUpperTinyStairs, new double[]{0, 0, 0, 16, 16, 16});
+        simpleHorizontalBlockList.put(grayAquarterHorizontal, new double[]{0, 0, 0, 16, 8, 16});
+        simpleHorizontalBlockList.put(grayAquarterVertical, new double[]{0, 0, 0, 16, 16, 16});
     }
 
     public static VoxelShape getFromDouble(double[] d) {

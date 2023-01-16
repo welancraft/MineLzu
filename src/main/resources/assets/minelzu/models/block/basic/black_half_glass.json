@@ -1,0 +1,84 @@
+{
+  "credit": "Tapio made with Blockbench",
+  "parent": "minecraft:block/block",
+  "texture_size": [
+    64,
+    64
+  ],
+  "textures": {
+    "0": "minelzu:block/basic/slab/black_half_glass",
+    "particle": "minelzu:block/basic/slab/black_half_glass"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        8
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            2,
+            6,
+            6
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            2,
+            2,
+            6
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            8,
+            2,
+            12,
+            6
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            6,
+            2,
+            8,
+            6
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            6,
+            2,
+            2,
+            0
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            10,
+            0,
+            6,
+            2
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "ambientocclusion": false,
+  "display": {}
+}

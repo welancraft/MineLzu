@@ -1,0 +1,7 @@
+{
+  "parent": "minelzu:block/basic/aquarter_vertical",
+  "textures": {
+    "0": "minelzu:block/basic/slab/gray_aquarter_vertical",
+    "particle": "minelzu:block/basic/slab/gray_aquarter_vertical"
+  }
+}

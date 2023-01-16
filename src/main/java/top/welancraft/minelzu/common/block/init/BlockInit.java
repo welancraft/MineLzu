@@ -5,6 +5,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.SlabBlock;
 import net.minecraft.block.StairsBlock;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.material.MaterialColor;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.math.shapes.VoxelShape;
@@ -12,6 +13,7 @@ import net.minecraftforge.fml.RegistryObject;
 import top.welancraft.minelzu.client.creativeTab.TabInit;
 import top.welancraft.minelzu.common.MineLZU;
 import top.welancraft.minelzu.common.block.base.*;
+import top.welancraft.minelzu.common.block.impl.HalfGlassBlock;
 import top.welancraft.minelzu.common.block.shapes.BlockShapes;
 import top.welancraft.minelzu.common.util.RegistryHandler;
 
@@ -29,12 +31,15 @@ public class BlockInit {
 
     public static void registerBlock() {
         MineLZU.LOGGER.info("MineLzu >>> Registering blocks!");
-        lazyRegisterSimpleBlock(outerWall1, corner1, bricksBrownWhite, bricksBrownBlack, bricksGreyBlack, bricksWhiteBlack, outerWall2Cube);
+        lazyRegisterSimpleBlock(outerWall1, corner1, bricksBrownWhite, bricksBrownBlack, bricksGreyBlack,
+                bricksWhiteBlack, outerWall2Cube, mixedConcrete0, mixedConcrete1);
         lazyRegisterStairsBlockNSlabBlock(bricksBrownWhite, bricksBrownBlack, bricksGreyBlack, bricksWhiteBlack, outerWall2Cube);
         lazyRegisterGlassBlock(blueTranslucentGlass);
         lazyRegisterNoCollisionFullOutlineBlock(academy2WallLamp);
         BlockShapes.singleVoxeledBlockList.forEach((name, shape) -> BLOCKS.put(name, lazyRegisterVoxeledBlock(name, shape)));
         BlockShapes.simpleHorizontalBlockList.forEach((name, shape) -> BLOCKS.put(name, lazyRegisterSimpleHorizontalBlock(name, shape)));
+        BLOCKS.put(blackHalfGlass, RegistryHandler.Blocks.register(blackHalfGlass, HalfGlassBlock::new));
+        BLOCKS.put(lightBlueSlab, RegistryHandler.Blocks.register(lightBlueSlab, () -> new SlabBlock(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_LIGHT_BLUE).requiresCorrectToolForDrops().strength(2.0F, 6.0F))));
         BLOCKS.forEach((name, block) -> RegistryHandler.Items.register(name, () -> new BlockItem(block.get(), DEFAULT)));
         MineLZU.LOGGER.info("MineLzu <<< Blocks registered!");
     }

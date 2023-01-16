@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "minecraft:block/orange_terracotta",
+    "side": "minelzu:block/basic/mixed_concrete_1"
+  }
+}

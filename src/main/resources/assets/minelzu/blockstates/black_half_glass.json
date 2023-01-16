@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minelzu:block/basic/black_half_glass"
+    },
+    "facing=south": {
+      "model": "minelzu:block/basic/black_half_glass",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "minelzu:block/basic/black_half_glass",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "minelzu:block/basic/black_half_glass",
+      "y": 270
+    }
+  }
+}

@@ -5,6 +5,12 @@ public class BlockReference {
     public static final String yellowSlabStairs = "yellow_slab_stairs";
     public static final String yellowTinySlab = "yellow_tiny_slab";
     public static final String grayUpperTinyStairs = "gray_upper_tiny_stairs";
+    public static final String grayAquarterHorizontal = "gray_aquarter_horizontal";
+    public static final String grayAquarterVertical = "gray_aquarter_vertical";
+    public static final String blackHalfGlass = "black_half_glass";
+    public static final String mixedConcrete0 = "mixed_concrete_0";
+    public static final String mixedConcrete1 = "mixed_concrete_1";
+    public static final String lightBlueSlab = "light_blue_slab";
 
     //Outer walls
     public static final String outerWall1 = "ow_01";
